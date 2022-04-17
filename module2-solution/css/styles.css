@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+section {
+	background: grey;
+	padding: 10px;
+	border: 5px black solid;
+	margin: 10px;
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	position: absolute;
+	color: white;
+	border: 5px black solid;
+	padding: 10px;
+	text-align: center;
+	top: -24px;
+	right: -5px;
+	width: 33.33%;
+	overflow: auto;
+}
+
+p {
+	clear: both;
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+	}
+}
+
+/*Tablet Styles */
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+	
+}
